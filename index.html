@@ -8,12 +8,20 @@
 </head>
 <body>
     <div class="container">
-        <h1>Введите заголовок</h1>
-        <div class="todo-container">
-            <div id="todo-list" class="todo-list"></div>
+        <h1>Введите задачу</h1>
+        <!-- Контейнер для активных задач -->
+        <div class="active-tasks">
+            <div id="active-list" class="todo-list"></div>
         </div>
-        <input type="text" id="task-input" class="task-input" placeholder="New task...">
+        <!-- Поле ввода новой задачи -->
+        <div class="input-container">
+            <input type="text" id="task-input" class="task-input" placeholder="New task...">
+        </div>
+        <!-- Контейнер для выполненных задач -->
+        <div class="completed-tasks">
+            <div id="completed-list" class="todo-list"></div>
+        </div>
     </div>
-    <script type="module" src="/main.js"></script>
+    <script type="module" src="src/main.js"></script>
 </body>
 </html>
