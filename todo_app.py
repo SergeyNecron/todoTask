@@ -21,7 +21,7 @@ class TodoApp:
         # Create and place the header
         self.header = tk.Label(
             root,
-            text="Введите заголовок",
+            text="Введите задачу",
             font=styles.HEADER_FONT,
             bg=styles.BACKGROUND_COLOR,
             fg=styles.TEXT_COLOR
